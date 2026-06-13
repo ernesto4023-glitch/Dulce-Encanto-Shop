@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "name": "Perfume Rosa",
+    "category": "perfumes",
+    "price": 45000,
+    "image": "img/p1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Perfume Floral",
+    "category": "perfumes",
+    "price": 48000,
+    "image": "img/p2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Set Regalo Deluxe",
+    "category": "regalos",
+    "price": 65000,
+    "image": "img/r1.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Kit Cuidado Facial",
+    "category": "cuidado",
+    "price": 52000,
+    "image": "img/c1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Kit Cuidado Facial",
+    "category": "cuidado",
+    "price": 52000,
+    "image": "img/c1.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Kit Cuidado Facial",
+    "category": "cuidado",
+    "price": 52000,
+    "image": "img/c1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Kit Cuidado Facial",
+    "category": "cuidado",
+    "price": 52000,
+    "image": "img/c1.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Kit Cuidado Facial",
+    "category": "cuidado",
+    "price": 52000,
+    "image": "img/c1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Kit Cuidado Facial",
+    "category": "cuidado",
+    "price": 52000,
+    "image": "img/c1.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Kit Cuidado Facial",
+    "category": "cuidado",
+    "price": 52000,
+    "image": "img/c1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Kit Cuidado Facial",
+    "category": "cuidado",
+    "price": 52000,
+    "image": "img/c1.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Kit Cuidado Facial",
+    "category": "cuidado",
+    "price": 52000,
+    "image": "img/c1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Kit Cuidado Facial",
+    "category": "cuidado",
+    "price": 52000,
+    "image": "img/c1.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Kit Cuidado Facial",
+    "category": "cuidado",
+    "price": 52000,
+    "image": "img/c1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Kit Cuidado Facial",
+    "category": "cuidado",
+    "price": 52000,
+    "image": "img/c1.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Kit Cuidado Facial",
+    "category": "cuidado",
+    "price": 52000,
+    "image": "img/c1.jpg"
+  }
+]

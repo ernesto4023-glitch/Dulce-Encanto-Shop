@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dulce Encanto Shop</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="">
+    </div>
+
+    <nav id="nav">
+      <a href="index.html" class="active">Inicio</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="about.html">Nosotros</a>
+      <a href="#footer">Contacto</a>
+    </nav>
+
+    <div class="actions">
+      <a class="whatsapp-btn" href="https://wa.me/573001455979" target="_blank">
+      <i class="bi bi-whatsapp"></i> Pedir por WhatsApp
+      </a>
+
+      <div class="menu-toggle" id="toggle">☰</div>
+    </div>
+  </header>
+
+  <section class="hero">
+
+    <!-- SWIPER BACKGROUND -->
+    <div class="swiper">
+      <div class="swiper">
+
+        <!-- SLIDE 1 -->
+        <div class="slide">
+          <div class="bg desktop">
+            <img src="banner1-PC.png" alt="">
+          </div>
+          <div class="bg mobile">
+            <img src="banner1-movil.png" alt="">
+          </div>
+        </div>
+
+        <!-- SLIDE 2 -->
+        <div class="slide">
+          <div class="bg desktop">
+            <img src="banner2-PC.png" alt="">
+          </div>
+          <div class="bg mobile">
+            <img src="banner2-movil.png" alt="">
+          </div>
+        </div>
+
+        <!-- SLIDE 3 -->
+        <div class="slide">
+          <div class="bg desktop">
+            <img src="banner3-PC.png" alt="">
+          </div>
+          <div class="bg mobile">
+            <img src="banner3-movil.png" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- OVERLAY -->
+    <div class="overlay"></div>
+
+    <!-- CONTENT -->
+    <div class="hero-content">
+
+      <h1>
+        Detalles bonitos<br>
+        <span class="brown">para regalar</span><br>
+        <span class="pink">y consentirte</span>
+      </h1>
+
+      <p>
+        Productos seleccionados con amor para hacer de cada momento algo especial.
+      </p>
+
+      <div class="hero-buttons">
+        <a class="btn primary" href="https://wa.me/573001455979">
+          Pedir por WhatsApp
+        </a>
+
+        <a class="btn secondary" href="catalogo.html">
+          Ver catálogo
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="categories-section">
+
+    <h2>Categorías</h2>
+
+    <div id="categoryBar" class="category-scroll"></div>
+
+  </section>
+
+  <div class="catalog-page">
+
+    <main class="products-area">
+
+      <div id="products" class="products-grid"></div>
+
+    </main>
+
+  </div>
+
+  <section class="seccion-dulce">
+  <!-- Columna izquierda -->
+  <div class="columna">
+    <h2>Compra fácil por WhatsApp</h2>
+    <div class="pasos">
+      <div class="paso">
+        <div class="icono"><i class="bi bi-bag-check"></i></div>
+        <div>
+          <h4>Elige tus productos</h4>
+          <p>Explora el catálogo y selecciona tus favoritos.</p>
+        </div>
+      </div>
+      <div class="line-separator"></div>
+      <div class="paso">
+        <div class="icono"><i class="bi bi-whatsapp"></i></div>
+        <div>
+          <h4>Escríbenos</h4>
+          <p>Haz tu pedido por WhatsApp de forma rápida y fácil.</p>
+        </div>
+      </div>
+      <div class="line-separator"></div>
+      <div class="paso">
+        <div class="icono"><i class="bi bi-box"></i></div>
+        <div>
+          <h4>Recíbelo en casa</h4>
+          <p>Enviamos tu pedido con mucho amor.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Columna derecha -->
+  <div class="columna razones">
+    <h2>¿Por qué elegir Dulce Encanto Shop?</h2>
+    <ul class="porque">
+      <li><div class="icono"><i class="bi bi-person"></i></div> <p><span>Atención</span> personalizada</p></li>
+      <li><div class="icono"><i class="bi bi-star"></i></div> <p><span>Productos</span> de calidad</p></li>
+      <li><div class="icono"><i class="bi bi-heart"></i></div> <p><span>Hecho con</span>  amor para ti</p></li>
+      <li><div class="icono"><i class="bi bi-emoji-smile"></i></div><p><span>Clientes</span> satisfechas</p></li>
+    </ul>
+  </div>
+</section>
+
+
+  <footer class="footer">
+
+  <div class="footer-container">
+
+    <div class="footer-brand">
+      <img src="logo.png" alt="">
+    </div>
+
+    <div class="footer-links">
+      <h3>Enlaces</h3>
+      <a href="index.html">Inicio</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="#">Nosotros</a>
+      <a href="#">Contacto</a>
+    </div>
+
+    <div class="footer-contact">
+      <h3>Contacto</h3>
+      <p>WhatsApp: +57 300 1455979</p>
+      <p>Email: contacto@tienda.com</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Dulce Encanto Shop. Todos los derechos reservados.</p>
+  </div>
+
+</footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

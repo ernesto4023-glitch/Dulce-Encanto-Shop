@@ -1,0 +1,38 @@
+
+    [
+  {
+    "name": "Perfumes",
+    "slug": "perfumes",
+    "image": "img/perfumes.jpg"
+  },
+  {
+    "name": "Regalos",
+    "slug": "regalos",
+    "image": "img/regalos.jpg"
+  },
+  {
+    "name": "Cuidado",
+    "slug": "cuidado",
+    "image": "img/cuidado.jpg"
+  },
+  {
+    "name": "Bolsos",
+    "slug": "bolsos",
+    "image": "img/bolsos.jpg"
+  },
+  {
+    "name": "Regalos",
+    "slug": "regalos",
+    "image": "img/regalos.jpg"
+  },
+  {
+    "name": "Cuidado",
+    "slug": "cuidado",
+    "image": "img/cuidado.jpg"
+  },
+  {
+    "name": "Bolsos",
+    "slug": "bolsos",
+    "image": "img/bolsos.jpg"
+  }
+]
