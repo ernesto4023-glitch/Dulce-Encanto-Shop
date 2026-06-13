@@ -803,4 +803,18 @@ h2 {
         flex-direction: column;
     }
 
+
+}
+
+.section-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  flex: 1 1 260px;
+  max-width: 320px;
+  min-width: 240px;
 }
