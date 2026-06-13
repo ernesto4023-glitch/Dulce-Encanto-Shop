@@ -476,6 +476,16 @@ nav a {
     height: 230px;
 }
 
+.container,
+.section,
+.category,
+.products,
+.grid {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 h2 {
     color: #d63384;
     margin-bottom: 20px;
