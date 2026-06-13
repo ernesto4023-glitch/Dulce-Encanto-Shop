@@ -114,6 +114,9 @@ nav a {
     height: 100%;
     object-fit: cover;
     display: block;
+
+    opacity: 1;
+    transition: opacity 0.3s ease;
 }
 /* =========================
    OVERLAY
@@ -143,6 +146,13 @@ nav a {
     gap: 18px;
 }
 
+.bg.pc {
+    display: block;
+}
+
+.bg.mobile {
+    display: none;
+}
 
 /* TITULO */
 .hero-content h1 {
@@ -476,15 +486,6 @@ nav a {
     height: 230px;
 }
 
-.container,
-.section,
-.category,
-.products,
-.grid {
-  display: flex !important;
-  flex-wrap: wrap;
-  gap: 20px;
-}
 
 h2 {
     color: #d63384;
@@ -628,6 +629,14 @@ h2 {
         font-size: 17px;
         margin: 0;
 
+    }
+
+    .bg.pc {
+        display: none !important;
+    }
+
+    .bg.mobile {
+        display: block !important;
     }
 
     .logo img {
